@@ -13,7 +13,9 @@ To build an end-to-end sentiment analysis pipeline that allows users to input ra
 ---
 ## Demo ScreenShort:
 
+![Picture](https://github.com/Manav2507/Sentiment-Analysis/blob/main/8_3.png)
 ![Picture](https://github.com/Manav2507/Sentiment-Analysis/blob/main/8_1.png)
+![Picture](https://github.com/Manav2507/Sentiment-Analysis/blob/main/8_2.png)
 
 ## 📦 Features
 
