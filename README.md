@@ -1,98 +1,59 @@
-# Sentiment Analysis Web Application
+# 💬 Sentiment Analysis Web Application
 
-## 📌 Introduction
-
-### 🎯 Purpose
-This web application enables users to input text-based feedback and receive **real-time sentiment predictions** (Positive, Negative, or Neutral). It is built using a **Neural Network (NN)** model and powered by **Streamlit**, a lightweight Python framework for creating interactive web apps.
-
-### 📦 Scope
-The project delivers an end-to-end sentiment analysis solution, including:
-- Training and fine-tuning a neural network model
-- Integrating it with a Streamlit frontend
-- Deploying the application on **AWS** or open-source cloud platforms
-
-**Use Cases:** Customer service, e-commerce reviews, social media monitoring, etc.
-
-### 🧠 Definitions & Abbreviations
-- **NN**: Neural Network
-- **NLTK**: Natural Language Toolkit, used for text preprocessing
-- **VADER**: Lexicon-based sentiment analysis tool optimized for social media
-- **Roberta**: Robustly optimized BERT model
-- **BERT**: Bidirectional Encoder Representations from Transformers
-- **Streamlit**: Python framework for web apps
-
-### 📚 References
-- **Amazon Reviews Dataset**
+An interactive web application for real-time **sentiment prediction** using neural networks and pre-trained transformer models (RoBERTa, BERT, and VADER). Built with **Streamlit** and deployed on **AWS**, this app is ideal for analyzing customer feedback, reviews, and social media content.
 
 ---
 
-## 🌐 System Overview
+## 📌 Project Overview
 
-### 💡 Product Perspective
-A standalone web application with a real-time interactive interface to analyze textual data using a pre-trained AI model.
+### 🎯 Objective
 
-### ⚙️ Product Features
-- Accepts and processes text input
-- Performs sentiment classification (Positive/Negative/Neutral)
-- Displays sentiment predictions in real-time
-- Shows model evaluation metrics like accuracy
+To build an end-to-end sentiment analysis pipeline that allows users to input raw text and receive instant sentiment predictions (Positive, Negative, or Neutral).
 
-### 🔗 Assumptions & Dependencies
-- Users input meaningful text for analysis
-- Model is pre-trained and fine-tuned before deployment
-- Streamlit is used as the frontend framework
-- Application will be deployed on AWS or an alternative platform
+---
+## Demo ScreenShort:
+
+![Picture](https://github.com/Manav2507/Sentiment-Analysis/blob/main/8_1.png)
+
+## 📦 Features
+
+✅ Accepts and preprocesses text input  
+✅ Uses **fine-tuned transformer models** (BERT / RoBERTa)  
+✅ Displays **real-time predictions** and performance metrics  
+✅ Web interface built using **Streamlit**  
+✅ **Deployed on AWS EC2 or Streamlit Cloud**  
+✅ Supports both rule-based (VADER) and DL-based (NN/Transformer) models  
 
 ---
 
-## ✅ Functional Requirements
+## 📈 Use Cases
 
-### 1. Neural Network Model Development
-- Train on datasets like **IMDb Movie Reviews** or **Sentiment140**
-- Use **Roberta** or **BERT** for embeddings
-- Fine-tune pre-trained models for sentiment classification
-- Evaluate using accuracy, precision, recall, and F1-score
-
-### 2. Streamlit Web Application
-- Develop the UI using Streamlit
-- Include text input field and "Predict" button
-- Display real-time sentiment results
+- 🛍️ E-commerce product reviews  
+- 💬 Social media brand monitoring  
+- ☎️ Customer support feedback analysis  
+- 🧪 Research in NLP and sentiment modeling  
 
 ---
 
-## 🚀 System Features
+## 🧠 Models & Techniques
 
-### 🧾 User Input Processing
-- Accepts raw text input
-- Preprocesses text before model inference
+| Model      | Description                                        |
+|------------|----------------------------------------------------|
+| **VADER**  | Lexicon-based model, good for short texts/social   |
+| **BERT**   | Transformer-based model for sentiment classification |
+| **RoBERTa**| A more optimized and robust version of BERT        |
 
-### 🔍 Sentiment Prediction
-- Classifies input into Positive, Negative, or Neutral
-- Displays output immediately to the user
-
-### 📊 Model Evaluation
-- Shows performance metrics (accuracy, precision, recall, F1)
-- Supports model retraining
-
-### ☁️ Deployment & Maintenance
-- Deploy on **AWS** or alternative cloud services
-- Provide updates and improvements regularly
-- Implement **logging** and **monitoring** for system health
+> Fine-tuned on the IMDb Movie Review dataset and/or Sentiment140.
 
 ---
 
-## 🔧 Technologies Used
-- Python
-- Streamlit
-- Transformers (BERT, Roberta)
-- NLTK / VADER
-- AWS (EC2/S3 or Streamlit Cloud)
+## 🧪 Evaluation Metrics
+
+| Metric      | Purpose                                   |
+|-------------|--------------------------------------------|
+| Accuracy    | Overall correctness                       |
+| Precision   | True Positives / Predicted Positives      |
+| Recall      | True Positives / Actual Positives         |
+| F1-score    | Harmonic mean of Precision and Recall     |
 
 ---
-
-## 👨‍💻 Author
-**Manav Patel**
-
----
-
-> 💬 *Feel free to clone, contribute, or open issues to improve this project!*
